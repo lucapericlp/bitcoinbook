@@ -1,5 +1,17 @@
 Code Examples: ![travis_ci](https://travis-ci.org/bitcoinbook/bitcoinbook.svg?branch=develop)
 
+#Compilation from asciidoc to epub
+
+From asciidoc to html: 
+```sh
+asciidoctor [ch]*.asciidoc -D ch_html/
+```
+
+From html to epub:
+```sh
+pandoc ch_html/*.html -o book.epub
+```
+
 # Mastering Bitcoin
 
 Mastering Bitcoin is a book for developers, although the first two chapters cover bitcoin at a level that is also approachable to non-programmers. Anyone with a basic understanding of technology can read the first two chapters to get a great understanding of bitcoin.
